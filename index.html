@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra Boda - Invitación</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="overlay">
+    <div class="overlay-content">
+        <h1>Hector & Kary</h1>
+        <button onclick="startExperience()" id="startBtn">Abrir Invitación</button>
+    </div>
+</div>
+    <section class="hero">
+        <div class="content">
+            <h1>Hector & Kary</h1>
+            <p>¡Nos casamos!</p>
+            <div id="countdown">
+                </div>
+        </div>
+    </section>
+
+    <div class="music-container">
+        <audio id="weddingSong" loop>
+            <source src="files/playback.mp3" type="audio/mpeg">
+            Tu navegador no soporta audio.
+        </audio>
+        <button onclick="toggleMusic()" id="musicBtn">🎵 Reproducir</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
