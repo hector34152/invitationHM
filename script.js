@@ -20,6 +20,6 @@ function startExperience() {
     audio.play().catch(error => {
         console.log("El navegador bloqueó el audio inicial:", error);
     });
-    btn.innerHTML = "⏸ Pausar";
+    btn.innerHTML = "Pausar";
     overlay.classList.add("fade-out");
 }
